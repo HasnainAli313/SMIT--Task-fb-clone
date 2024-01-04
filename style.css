@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/* Header */
+.face{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    padding:2px;
+    color: white;
+    background-color: #0866ff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.form{
+position: relative;
+right: 0px;
+
+}
+.labels{
+    display: flex;
+    justify-content: space-between;
+    width: 237px;
+}
+.pas{
+   position: relative;
+   top:22px;
+   right: 225px;
+
+} 
+
+/* Main */
+
+.main{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.items{
+    display: flex;
+    align-items: center;
+  
+}
+img{
+    margin-right: 30px;
+}
+
+/* Sign up */
+.sign-up{
+    float: right;
+    margin-top:-300px;
+}
+.sign-up input{
+    margin-bottom:10px;
+}
+input[type=text]{
+height: 30px;
+width:39.5%;
+}
+.in{
+height: 30px;
+width: 80%;
+}
+.why{
+    position: inherit;
+    text-decoration: none;
+    font-size: small;
+}
+.links{
+    text-decoration: none;
+}
+.para{
+    width:600px;
+    font-size: small;
+}
+.flex{
+    display:flex;
+}
+.btn{
+cursor: pointer;
+background-color: rgb(41, 184, 41);
+font-weight:bold;    
+color: white;
+border: none;
+border-radius: 3px;
+padding:10px;
+width:180px;
+margin-bottom:5px;
+}
+.sub{
+    background-color: rgb(38, 107, 211);
+    color: white;
+    padding: 3px;
+    border: 1px solid black;
+}
